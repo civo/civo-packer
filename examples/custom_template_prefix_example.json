@@ -1,0 +1,28 @@
+{
+  "variables": {
+    "CIVO_TOKEN": "{{ env `CIVO_TOKEN` }}"
+  },
+  "builders": [
+    {
+      "type": "civo",
+      "instance_name": "my-debian-packer",
+      "api_token": "{{ user `CIVO_TOKEN` }}",
+      "template": "debian-buster",
+      "snapshot_name": "nginx-server",
+      "region": "lon1",
+      "size": "g2.small",
+      "ssh_username": "root"
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "inline": [
+        "apt-get update",
+        "apt-get upgrade -y",
+        "apt-get install nginx-full -y",
+        "echo '<ssh-rsa_key>' | tee /root/.ssh/authorized_keys"
+      ]
+    }
+  ]
+}
