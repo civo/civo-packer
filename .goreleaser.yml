@@ -1,0 +1,28 @@
+project_name: packer-builder-civo
+builds:
+  - env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+      - windows
+    goarch:
+      - amd64
+    ignore:
+      - goos: darwin
+        goarch: 386
+checksum:
+  name_template: "{{ .ProjectName }}-{{ .Version }}-checksums.sha256"
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - "^docs:"
+      - "^test:"
+      - Merge pull request
+      - Merge branch
+archives:
+  - name_template: "{{ .ProjectName }}-{{ .Version }}-{{ .Os }}-{{ .Arch }}"
+    format_overrides:
+      - goos: windows
+        format: zip
