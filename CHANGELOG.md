@@ -1,9 +1,12 @@
 
 1.0.0
 =============
-2020-07-27
+2020-07-29
 
-* Added gorelease to the github actions (0deb4509)
-* Initial Commit v1.0.0 (ef350902)
+* Added basic example to the project (48e04283)
+* Removed unnecessary file (89c904e8)
+* Update the Change log (6198be4e)
+* Added gorelease to the github actions (bf08068d)
+* Initial Commit v1.0.0 (dfd021be)
 
 
