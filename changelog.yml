@@ -1,0 +1,56 @@
+- semver: 1.0.1
+  date: 2020-09-25T15:08:00.680536-04:00
+  packager: ""
+  changes:
+  - commit: f03d06c73931ccb18ca07544027300834d15526a
+    note: Update to civogo lib v0.2.19
+    author:
+      name: Alejandro JNM
+      email: alejandrojnm@gmail.com
+    committer:
+      name: Alejandro JNM
+      email: alejandrojnm@gmail.com
+- semver: 1.0.0
+  date: 2020-07-29T15:53:13.783773-04:00
+  packager: ""
+  changes:
+  - commit: 48e04283d6e618e1dda7ca12c3ab7b4a90ae8da7
+    note: Added basic example to the project
+    author:
+      name: Alejandro JNM
+      email: alejandrojnm@gmail.com
+    committer:
+      name: Alejandro JNM
+      email: alejandrojnm@gmail.com
+  - commit: 89c904e8c3352a3fa480af462f01789745c4bb70
+    note: Removed unnecessary file
+    author:
+      name: Alejandro JNM
+      email: alejandrojnm@gmail.com
+    committer:
+      name: Alejandro JNM
+      email: alejandrojnm@gmail.com
+  - commit: 6198be4ef435e0262dcbefe87c1eaae0c2fca2c6
+    note: Update the Change log
+    author:
+      name: Alejandro JNM
+      email: alejandrojnm@gmail.com
+    committer:
+      name: Alejandro JNM
+      email: alejandrojnm@gmail.com
+  - commit: bf08068d982bb7917fcfcf27bbaaa78d7a839dce
+    note: Added gorelease to the github actions
+    author:
+      name: Alejandro JNM
+      email: alejandrojnm@gmail.com
+    committer:
+      name: Alejandro JNM
+      email: alejandrojnm@gmail.com
+  - commit: dfd021bec9e71e55b66962d02adaa8101e1df86d
+    note: Initial Commit v1.0.0
+    author:
+      name: Alejandro JNM
+      email: alejandrojnm@gmail.com
+    committer:
+      name: Alejandro JNM
+      email: alejandrojnm@gmail.com
