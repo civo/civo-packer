@@ -24,7 +24,7 @@ func (s *stepCreateInstance) Run(ctx context.Context, state multistep.StateBag) 
 	// Create the instance based on configuration
 	ui.Say("Creating instance...")
 
-	template, err := client.GetTemplateByCode(c.Template)
+	template, err := client.FindTemplate(c.Template)
 	if err != nil {
 		ui.Error(err.Error())
 	}

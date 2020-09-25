@@ -3,7 +3,7 @@ module github.com/civo/civo-packer
 go 1.14
 
 require (
-	github.com/civo/civogo v0.2.12
+	github.com/civo/civogo v0.2.19
 	github.com/hashicorp/hcl/v2 v2.6.0
 	github.com/hashicorp/packer v1.6.0
 	github.com/mitchellh/mapstructure v1.3.3
